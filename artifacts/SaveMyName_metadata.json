@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_bio",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_age",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "_job",
+						"type": "string"
+					}
+				],
+				"name": "saveAndRetrieve",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day2-SaveMyName/day_SaveMyName.sol": "SaveMyName"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day2-SaveMyName/day_SaveMyName.sol": {
+			"keccak256": "0xf62a799b7bf487dba317e0aede68b820f98097ca35228fb004f58dd001e224c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2fc00363233fae3e23debfb1057eb81faa34a8b829200939b0068fb2a8feed78",
+				"dweb:/ipfs/QmaUsNL49FaXTeWjnw1QaqwYuRDoLTUATYRYEZztVME1N7"
+			]
+		}
+	},
+	"version": 1
+}
