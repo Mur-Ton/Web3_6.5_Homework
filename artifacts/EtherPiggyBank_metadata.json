@@ -7,60 +7,77 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "click",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_member",
+						"type": "address"
+					}
+				],
+				"name": "addMembers",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bankmanager",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "times",
+						"name": "_inAmount",
 						"type": "uint256"
 					}
 				],
-				"name": "clickMultiple",
+				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "counter",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "decrease",
+				"name": "depositAmountEther",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getCounter",
+				"name": "getMembers",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address[]",
 						"name": "",
-						"type": "uint256"
+						"type": "address[]"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "reset",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_outAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -79,7 +96,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"day1-ClickCounter/day1_ClickCounter.sol": "ClickCounter"
+			"day6-EtherPiggyBank/day6-etherpiggybank.sol": "EtherPiggyBank"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -93,12 +110,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"day1-ClickCounter/day1_ClickCounter.sol": {
-			"keccak256": "0x533331807e791dd9b107ed61d85d0cbe57d35a89ecb3018cb010e1f9a4b3a6f2",
+		"day6-EtherPiggyBank/day6-etherpiggybank.sol": {
+			"keccak256": "0x9d4fcf16cdd9decaaf2cf8edcc021287bbd5f4a3ac8589a487e409626dbf0af2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://940d56295574bc34b4460a2b149ba811ff00ee02c04720d2c6e98483ed78a8ee",
-				"dweb:/ipfs/QmZK7WLyAR1ogtuJftet4TH7uiYYSWn15Ldxz2TRn1NfTZ"
+				"bzz-raw://7859ad32560e74fd16a793679d128de84c7bedc1d4f030a23e6004af059e36f2",
+				"dweb:/ipfs/QmTCggsm3gCFeKeYNjk4e7vE5TtjDigRfHL6gLKK1W7asz"
 			]
 		}
 	},

@@ -6,28 +6,40 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "click",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "addCandidateNames",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCandidateNames",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "times",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					}
 				],
-				"name": "clickMultiple",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "counter",
+				"name": "getVoteCount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,28 +51,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "decrease",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getCounter",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "reset",
+				"name": "voteForCandidate",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -79,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"day1-ClickCounter/day1_ClickCounter.sol": "ClickCounter"
+			"day3-PollStation/day3_pollstation.sol": "PollStation"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -93,12 +91,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"day1-ClickCounter/day1_ClickCounter.sol": {
-			"keccak256": "0x533331807e791dd9b107ed61d85d0cbe57d35a89ecb3018cb010e1f9a4b3a6f2",
+		"day3-PollStation/day3_pollstation.sol": {
+			"keccak256": "0xd9b8ea139eef6f55d5db5207d4ad2a3f24533569b034faf5e7671e0cf6c91a62",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://940d56295574bc34b4460a2b149ba811ff00ee02c04720d2c6e98483ed78a8ee",
-				"dweb:/ipfs/QmZK7WLyAR1ogtuJftet4TH7uiYYSWn15Ldxz2TRn1NfTZ"
+				"bzz-raw://07d036fbf61083d57c4be02cb33375062a4de1933ff0593cf0017ebef4a15578",
+				"dweb:/ipfs/QmSQbL6SGPyuw7QinwuRyoBXG4zY4Fi1GiQXLmfxh9FjHp"
 			]
 		}
 	},
