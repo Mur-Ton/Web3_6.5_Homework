@@ -79,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"day1-ClickCounter/day1_ClickCounter.sol": "ClickCounter"
+			"Day1-ClickCounter/ClickCounter.sol": "ClickCounter"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -93,7 +93,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"day1-ClickCounter/day1_ClickCounter.sol": {
+		"Day1-ClickCounter/ClickCounter.sol": {
 			"keccak256": "0x533331807e791dd9b107ed61d85d0cbe57d35a89ecb3018cb010e1f9a4b3a6f2",
 			"license": "MIT",
 			"urls": [

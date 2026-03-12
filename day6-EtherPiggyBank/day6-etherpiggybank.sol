@@ -50,6 +50,6 @@ contract EtherPiggyBank{
     function depositAmountEther() public payable onlyRegisteredMember {
         require(msg.value > 0, "Invalid amount");
         balance[msg.sender] += msg.value;
-    }
+    }   
     
 }
